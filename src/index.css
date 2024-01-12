@@ -1,0 +1,9 @@
+@tailwind utilities;
+
+*{
+  @apply box-border m-0
+}
+
+html,body,#root{
+  @apply h-full w-full;
+}
