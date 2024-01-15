@@ -7,8 +7,13 @@ export default {
   theme: {
     extend: {
       screens: {
-        "tablet": "500px",
-        "laptop": "1000px"
+        "phone": "360px",
+        "phone2": "490px",
+        "tab":"950px",
+        "large":"1225px"
+      },
+      animation:{
+        
       }
     },
   },
