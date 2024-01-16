@@ -9,18 +9,18 @@ export default function Nav() {
     return (
         <>
         <Toaster/>
-            <nav class="bg-yellow-200 p-3  grid grid-cols-2 gap-2">
-                <div class="grid grid-cols-4 gap-4">
-                <div class="grid grid-cols-2 gap-4">
-                    <h1 className="text-[10px] ps-3  sm:text-[20px] mt-2 md:ps-18">{"<SIDDARTH/>"}</h1>
+            <nav className="bg-yellow-200 p-3  grid grid-cols-2 gap-2 fixed z-50">
+                <div className="grid grid-cols-4 gap-4">
+                <div className="grid grid-cols-2 gap-4">
+                    <h1 className="lg text-[10px] ps-3  sm:text-[20px] mt-2 md:ps-18"><a className="no-underline text-black  hover:text-red-600" href="#">{"<SIDDARTH/>"}</a></h1>
                 </div>
                 </div>
-                <div class="grid grid-cols-5 gap-1 ">
-                <div class="text-[7px] sm:text-[10px] mt-2 md:text-lg" onClick={()=> navigate("/")}>Home</div>
-                <div class="text-[7px] sm:text-[10px] mt-2 md:text-lg" onClick={()=> toast.error("currently not avilable")}>About</div>
-                <div class="text-[7px] sm:text-[10px] mt-2 md:text-lg" onClick={()=> navigate("/skills")}>Skills</div>
-                <div class="text-[7px] sm:text-[10px] mt-2 md:text-lg" onClick={()=> toast.error("currently not avilable")}>Projects</div>
-                <div class="text-[7px] sm:text-[10px] mt-2 md:text-lg" onClick={()=> toast.error("currently not avilable")}>Contact</div>
+                <div className="grid grid-cols-5 gap-1 ">
+                <div className="text-[7px] sm:text-[10px] mt-2 md:text-lg"> <a className="no-underline hover:text-red-600" href="#">Home</a></div>
+                <div className="text-[7px] sm:text-[10px] mt-2 md:text-lg"><a className="no-underline hover:text-red-600"  href="#about-section">About</a></div>
+                <div className="text-[7px] sm:text-[10px] mt-2 md:text-lg"><a className="no-underline hover:text-red-600"  href="#skill-section">Skills</a></div>
+                <div className="text-[7px] sm:text-[10px] mt-2 md:text-lg"><a className="no-underline hover:text-red-600" href="#project-section">Projects</a> </div>
+                <div className="text-[7px] sm:text-[10px] mt-2 md:text-lg"><a className="no-underline  hover:text-red-600" href="#contact">Contact</a></div>
                 </div>
             </nav>
         </>

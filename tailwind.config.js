@@ -10,10 +10,11 @@ export default {
         "phone": "360px",
         "phone2": "490px",
         "tab":"950px",
-        "large":"1225px"
+        "large":"1225px",
+        "cs":"1025px"
       },
-      animation:{
-        
+        animation: {
+          'bounce-slow': 'bounce 10s infinite',
       }
     },
   },

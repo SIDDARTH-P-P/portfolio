@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cabin+Sketch&family=Holtwood+One+SC&family=Kaushan+Script&family=Kurale&family=Libre+Bodoni:ital@1&family=Moo+Lah+Lah&family=Orbitron:wght@600&family=Rubik+Moonrocks&family=Teko:wght@500&display=swap');
 @tailwind utilities;
 *{
-  @apply box-border m-0
+  @apply box-border m-0 scroll-smooth;
 }
 
 html,body,#root{
@@ -43,3 +44,28 @@ html,body,#root{
   box-shadow: 0px 11px 30px 5px rgba(0,0,0,0.75);
   border-radius: 10px;
 }
+.img{
+  border-radius: 50%;
+}
+
+.cas{
+  filter: drop-shadow(4px 4px 4px #c3baba)
+  brightness(.9);
+}
+
+
+/* font-family: 'Moo Lah Lah', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Teko', sans-serif; */
+/* font-family: 'Alice', serif; */
+/* font-family: 'Kaushan Script', cursive; */
+/* font-family: 'Holtwood One SC', serif; */
+/* font-family: 'Cabin Sketch', sans-serif; */
+/* font-family: 'Rubik Moonrocks', sans-serif; */
+
+.lg{font-family: 'Orbitron', sans-serif;}
+
+.about{font-family: 'Moo Lah Lah', sans-serif;}
+.abt{font-family: 'Kaushan Script', cursive; }
+.hd{font-family: 'Holtwood One SC', serif;}
+.hom{font-family: 'Libre Bodoni', serif;}
