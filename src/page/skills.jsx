@@ -14,7 +14,7 @@ Entry-level MERN stack developer with proficiency in React.js, Node.js, and Mong
                         <div className="flex justify-center">
                             <img className=" mt-4 w-[35px]" src="./frontend.svg" alt="" />
                         </div>
-                        <h1 className=" flex justify-center mt-6 lg:text-[24px] md:text-[22px] sm:text-[20px] phone:text-[18px]">Froentend</h1>
+                        <h1 className=" flex justify-center mt-6 lg:text-[24px] md:text-[22px] sm:text-[20px] phone:text-[18px]">Front-End</h1>
                         <div className="ps-[60px] mb-8">
                             <h3 className="lg:text-[16px] md:text-[14px] sm:text-[13px] phone2:text-[15px] phone:text-[15px]"><span><img className="w-[25px]" src="./html.svg" alt="" /></span> HTML</h3>
                             <h3 className="lg:text-[16px] md:text-[14px] sm:text-[13px] phone2:text-[15px] phone:text-[15px]"><span><img className="w-[25px]" src="./css.svg" alt="" /></span>CSS</h3>
@@ -27,7 +27,7 @@ Entry-level MERN stack developer with proficiency in React.js, Node.js, and Mong
                         <div className="flex justify-center">
                             <img className="mt-4 w-[35px]" src="./backend.svg" alt="" />
                         </div>
-                        <h1 className="flex justify-center mt-6 lg:text-[24px] md:text-[22px] sm:text-[20px] phone:text-[18px]">Backend</h1>
+                        <h1 className="flex justify-center mt-6 lg:text-[24px] md:text-[22px] sm:text-[20px] phone:text-[18px]">Back-End</h1>
                         <div className="ps-[60px] mb-8">
                         <h3 className="lg:text-[16px] md:text-[14px] sm:text-[13px] phone2:text-[15px] phone:text-[15px]"><span><img className="w-[25px]" src="./express.svg" alt="" /> </span>Express js</h3>
                         <h3 className="lg:text-[16px] md:text-[14px] sm:text-[13px] phone2:text-[15px] phone:text-[15px]"><span><img className="w-[25px]" src="./node.svg" alt="" /> </span>Express js</h3>
