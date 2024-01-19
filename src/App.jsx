@@ -19,6 +19,7 @@ export default function App(){
    <Projects/>
    <Contact/>
    <Footer/>
+   
    <Routes>
    </Routes>
    </BrowserRouter>
