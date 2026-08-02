@@ -32,6 +32,11 @@ export const metadata: Metadata = {
   title: "Siddarth P P — Full Stack Developer",
   description:
     "Siddarth P P — Full Stack Developer building web apps and backend services with Go, React, Bash, C and Linux.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
   openGraph: {
     title: "Siddarth P P — Full Stack Developer",
     description:
